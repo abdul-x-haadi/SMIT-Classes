@@ -76,3 +76,7 @@ let studentsNames = arrayOfStudents.map(function (stdName){
     return stdName.name;
 })
 console.log(studentsNames);
+
+arrayOfStudents.forEach(function (std){
+    console.log(std.name + " scored " + std.marks + " marks.");
+});
