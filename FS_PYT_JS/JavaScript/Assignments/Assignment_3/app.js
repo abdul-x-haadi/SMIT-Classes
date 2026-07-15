@@ -26,3 +26,10 @@ checkGrade(25);
 checkGrade(100);
 checkGrade(79);
 checkGrade(67);
+
+for(let i = 1; i<=50; i++){
+    if(i%2===0){
+        console.log(i);
+    }
+}
+
