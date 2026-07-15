@@ -49,3 +49,9 @@ console.log("Added Usman at the beginning : ", arrOfNames);
 arrOfNames.pop();
 console.log("Removed the last element ", arrOfNames);
 console.log("Final Array : ", arrOfNames);
+
+let arrTask6 = [10, 20, 30, 40, 50, 60];
+let newArr1Task6 = arrTask6.slice(1, 4);
+console.log("Sliced Array : ", newArr1Task6);
+arrTask6.splice(2, 2);
+console.log("Spliced Array : ", arrTask6);
