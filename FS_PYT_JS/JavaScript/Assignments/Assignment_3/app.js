@@ -37,7 +37,9 @@ for(let i = 1; i<=50; i++){
         console.log(i);
     }
 }
+// -----------------------------------------------------------------
 
+// Task 4
 let j = 10;
 while(j>=1){
     console.log(j);
@@ -45,7 +47,7 @@ while(j>=1){
 }
 // -----------------------------------------------------------------
 
-// Task 4
+// Task 5
 let arrOfNames = ["Ali", "Ahmed", "Sara", "Zain"];
 arrOfNames.push("Fatima");
 console.log("Added Fatima in the end : ", arrOfNames);
@@ -58,7 +60,7 @@ console.log("Removed the last element ", arrOfNames);
 console.log("Final Array : ", arrOfNames);
 // -----------------------------------------------------------------
 
-// Task 5
+// Task 6
 let arrTask6 = [10, 20, 30, 40, 50, 60];
 let newArr1Task6 = arrTask6.slice(1, 4);
 console.log("Sliced Array : ", newArr1Task6);
@@ -66,7 +68,7 @@ arrTask6.splice(2, 2);
 console.log("Spliced Array : ", arrTask6);
 // -----------------------------------------------------------------
 
-// Task 6
+// Task 7
 let student = {
     name : "Abdul Hadi",
     age : 16,
@@ -77,7 +79,7 @@ console.log("Student's name : ", student.name);
 console.log("Student's City : ", student.city);
 // -----------------------------------------------------------------
 
-// Task 7
+// Task 8
 // Part A :
 let arrayOfStudents = [
     { name: "Ali", marks: 80 },
