@@ -33,3 +33,9 @@ for(let i = 1; i<=50; i++){
     }
 }
 
+let j = 10;
+while(j>=1){
+    console.log(j);
+    j--;
+}
+
