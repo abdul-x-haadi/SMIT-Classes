@@ -55,3 +55,12 @@ let newArr1Task6 = arrTask6.slice(1, 4);
 console.log("Sliced Array : ", newArr1Task6);
 arrTask6.splice(2, 2);
 console.log("Spliced Array : ", arrTask6);
+
+let student = {
+    name : "Abdul Hadi",
+    age : 16,
+    city : "Karachi",
+    course : "Javascript"
+}
+console.log("Student's name : ", student.name);
+console.log("Student's City : ", student.city);
