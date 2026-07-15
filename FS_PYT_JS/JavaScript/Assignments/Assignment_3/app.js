@@ -1,9 +1,12 @@
+// Task 1
 let userName = prompt("Enter your name : ");
 let userAge = prompt("Enter your age : ");
 alert("Welcome " + userName);
 console.log("User's name : ", userName);
 console.log("User's age : ", userAge);
+// -----------------------------------------------------------------
 
+// Task 2
 function checkGrade(marks){
     if(marks>=80){
         console.log("Your grade : A");
@@ -26,7 +29,9 @@ checkGrade(25);
 checkGrade(100);
 checkGrade(79);
 checkGrade(67);
+// -----------------------------------------------------------------
 
+// Task 3
 for(let i = 1; i<=50; i++){
     if(i%2===0){
         console.log(i);
@@ -38,7 +43,9 @@ while(j>=1){
     console.log(j);
     j--;
 }
+// -----------------------------------------------------------------
 
+// Task 4
 let arrOfNames = ["Ali", "Ahmed", "Sara", "Zain"];
 arrOfNames.push("Fatima");
 console.log("Added Fatima in the end : ", arrOfNames);
@@ -49,13 +56,17 @@ console.log("Added Usman at the beginning : ", arrOfNames);
 arrOfNames.pop();
 console.log("Removed the last element ", arrOfNames);
 console.log("Final Array : ", arrOfNames);
+// -----------------------------------------------------------------
 
+// Task 5
 let arrTask6 = [10, 20, 30, 40, 50, 60];
 let newArr1Task6 = arrTask6.slice(1, 4);
 console.log("Sliced Array : ", newArr1Task6);
 arrTask6.splice(2, 2);
 console.log("Spliced Array : ", arrTask6);
+// -----------------------------------------------------------------
 
+// Task 6
 let student = {
     name : "Abdul Hadi",
     age : 16,
@@ -64,7 +75,10 @@ let student = {
 }
 console.log("Student's name : ", student.name);
 console.log("Student's City : ", student.city);
+// -----------------------------------------------------------------
 
+// Task 7
+// Part A :
 let arrayOfStudents = [
     { name: "Ali", marks: 80 },
     { name: "Sara", marks: 92 },
@@ -76,11 +90,14 @@ let studentsNames = arrayOfStudents.map(function (stdName){
     return stdName.name;
 })
 console.log(studentsNames);
-
+// ---
+// Part B : 
 arrayOfStudents.forEach(function (std){
     console.log(std.name + " scored " + std.marks + " marks.");
 });
+// -----------------------------------------------------------------
 
+// Bonus Challenge
 function findTopper(){
     let topper = arrayOfStudents[0];
     arrayOfStudents.forEach(function (studentt) {
@@ -92,3 +109,4 @@ function findTopper(){
     console.log("Marks : ", topper.marks);
 }
 findTopper();
+// -----------------------------------------------------------------
