@@ -80,3 +80,15 @@ console.log(studentsNames);
 arrayOfStudents.forEach(function (std){
     console.log(std.name + " scored " + std.marks + " marks.");
 });
+
+function findTopper(){
+    let topper = arrayOfStudents[0];
+    arrayOfStudents.forEach(function (studentt) {
+        if (studentt.marks > topper.marks) {
+            topper = studentt;
+        }
+    });
+    console.log("Topper : ", topper.name);
+    console.log("Marks : ", topper.marks);
+}
+findTopper();
