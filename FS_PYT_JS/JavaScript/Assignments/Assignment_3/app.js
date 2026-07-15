@@ -39,3 +39,13 @@ while(j>=1){
     j--;
 }
 
+let arrOfNames = ["Ali", "Ahmed", "Sara", "Zain"];
+arrOfNames.push("Fatima");
+console.log("Added Fatima in the end : ", arrOfNames);
+arrOfNames.shift();
+console.log("Removed the first element.", arrOfNames);
+arrOfNames.unshift("Usman");
+console.log("Added Usman at the beginning : ", arrOfNames);
+arrOfNames.pop();
+console.log("Removed the last element ", arrOfNames);
+console.log("Final Array : ", arrOfNames);
