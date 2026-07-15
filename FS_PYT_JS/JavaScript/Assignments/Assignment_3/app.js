@@ -64,3 +64,15 @@ let student = {
 }
 console.log("Student's name : ", student.name);
 console.log("Student's City : ", student.city);
+
+let arrayOfStudents = [
+    { name: "Ali", marks: 80 },
+    { name: "Sara", marks: 92 },
+    { name: "Ahmed", marks: 65 },
+    { name: "Zain", marks: 50 }
+];
+
+let studentsNames = arrayOfStudents.map(function (stdName){
+    return stdName.name;
+})
+console.log(studentsNames);
