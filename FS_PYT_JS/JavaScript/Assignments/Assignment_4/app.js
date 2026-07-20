@@ -36,3 +36,21 @@ console.log(personss);
 
 // -----------------------------------------------------------------
 
+// ### Task 3 – Display Data on the Web Page
+// * Create a <div> in your HTML file with an id.
+// * Access that <div> from your JavaScript file.
+// * Retrieve the saved data from *localStorage* using JSON.parse().
+// * Use *forEach()* to loop through the array and render each user's information inside the <div> using innerHTML.
+
+let userInformation = document.getElementById("users-information");
+personss.forEach((user, index)=>{
+    userInformation.innerHTML += `
+    <h3>Users Information ${index+1} : </h3>
+    <p>Full Name : ${user.Person_Full_Name}</p>
+    <p>Age : ${user.Person_Age}</p>
+    <p>City : ${user.Person_City}</p>
+    <p>Profession : ${user.Person_Profession}</p>
+    <p>Email : ${user.Person_Email}</p>
+    <p>Phone Number : ${user.Person_Phone_number}</p>
+    `
+})
