@@ -1,0 +1,278 @@
+Topic
+JavaScript DOM Manipulation
+
+Difficulty
+⭐⭐⭐⭐☆ (Intermediate)
+
+Objective
+Create a Student Management System using HTML, CSS, and Vanilla JavaScript.
+
+Students should be able to manage student records completely through DOM manipulation without using any framework or backend.
+
+Features
+Your application must allow the user to:
+
+1. Add Student
+The user should enter:
+
+Student Name
+Roll Number
+Age
+Course
+Email
+Clicking Add Student should:
+
+Validate all fields
+Create a new student card/table row
+Append it to the page using JavaScript
+Clear the form
+2. Display Students
+All students should appear in a table.
+
+Example:
+
+NameRoll NoAgeCourseEmailActionsAli10120Web Developmentali@gmail.comEdit Delete
+
+3. Delete Student
+Each student should have a Delete button.
+
+When clicked:
+
+Ask for confirmation
+Remove the student from the DOM
+4. Edit Student
+Each row should have an Edit button.
+
+Clicking Edit should:
+
+Fill the form with existing data
+Allow updating
+Save changes back into the table
+5. Search Student
+A search box should filter students instantly.
+
+Search by:
+
+Name
+Roll Number
+Course
+Use:
+
+input event
+textContent
+includes()
+6. Student Counter
+Display:
+
+
+
+Total Students: 10
+
+
+
+Whenever a student is:
+
+Added
+Deleted
+The counter should update automatically.
+
+7. Empty State
+If no students exist, display:
+
+
+
+No Students Found
+
+
+
+When students are added, remove this message.
+
+8. Form Validation
+Validate:
+
+No empty fields
+Email format
+Age > 15
+Roll Number cannot repeat
+Show validation messages on the page.
+
+9. Sort Students (Bonus)
+Buttons:
+
+
+
+Sort A-Z
+
+
+
+Sort Z-A
+
+
+
+Sort by:
+
+Name
+10. Dark Mode (Bonus)
+Button:
+
+
+
+🌙 Dark Mode
+
+
+
+Should change:
+
+Background
+Text
+Table colors
+using
+
+
+
+classList.toggle()
+
+
+
+DOM Concepts They Must Use
+Students must use the following concepts:
+
+Selecting Elements
+getElementById()
+querySelector()
+querySelectorAll()
+Events
+click
+submit
+input
+change
+DOM Manipulation
+createElement()
+appendChild()
+remove()
+innerHTML
+textContent
+Attributes
+setAttribute()
+getAttribute()
+Styling
+classList.add()
+classList.remove()
+classList.toggle()
+Traversing
+parentElement
+children
+nextElementSibling
+previousElementSibling
+Forms
+value
+reset()
+Validation
+trim()
+if conditions
+Regular Expressions (Email)
+Arrays
+Store students inside an array.
+
+Use:
+
+push()
+splice()
+find()
+findIndex()
+filter()
+sort()
+Suggested UI
+
+
+-------------------------------------------------
+
+Student Management System
+
+-------------------------------------------------
+
+
+
+Search Student...
+
+
+
+-------------------------------------------------
+
+
+
+Name [______________]
+
+
+
+Roll No [______________]
+
+
+
+Age [______________]
+
+
+
+Course [______________]
+
+
+
+Email [______________]
+
+
+
+[ Add Student ]
+
+
+
+-------------------------------------------------
+
+
+
+Total Students : 5
+
+
+
+-------------------------------------------------
+
+
+
+| Name | Roll | Age | Course | Email | Actions |
+
+
+
+| Ali | 101 | 20 | Web | ..... | Edit Delete |
+
+
+
+| Ahmed| 102 | 19 | AI | ..... | Edit Delete |
+
+
+
+-------------------------------------------------
+
+
+
+Folder Structure
+
+
+Student-Management-System
+
+
+
+│── index.html
+
+│── style.css
+
+│── app.js
+
+
+
+Submission Requirements
+Students must submit:
+
+Public GitHub Repository
+Project Name
+Features
+Technologies Used
+GitHub Repository Link
