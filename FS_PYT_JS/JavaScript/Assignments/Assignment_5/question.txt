@@ -40,6 +40,7 @@ When clicked:
 
 Ask for confirmation
 Remove the student from the DOM
+
 4. Edit Student
 Each row should have an Edit button.
 

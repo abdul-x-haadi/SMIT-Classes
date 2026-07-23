@@ -3,12 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Management System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <button class="buttonss" id="add-student" onclick="addStudent(); displayStudents()">
+        Click to add a Student
+    </button>
+    <button class="buttonss" onclick="searchStudent()">
+    Search Student
+    </button>
+    <button class="buttonss" id="sort-btn" onclick="sortStudents()">
+    Sort A-Z
+    </button>
+    <button class="buttonss" id="theme-btn" onclick="changeTheme()">
+    Dark Mode
+    </button>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
 
+    <tbody id="user-information">
+        
+    </tbody>
+</table>
+    <h2 id="student-counter">Total Students: 0</h2>
     <script src="app.js"></script>
 </body>
 </html>
