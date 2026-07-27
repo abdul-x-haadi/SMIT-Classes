@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D5FF3F;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#part-2{
+    display: flex;
+    gap: 63px;
+}
+
+.nav-title{
+    font-size: 21px;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: 0.5s ease;
+}
+
+a:hover{
+    background-color: black;
+    color: #D5FF3F;
+
+}
+.section-1{
+    display: flex;
+}
+
+
+.main-title h1{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 175px;
+    font-weight: 700;
+    line-height: 172px;
+    letter-spacing: -5px;
+}
+
+.player-img{
+    height: 85px;
+    width: 320px;
+    background-color: #fff;
+    margin-top: 160px;
+    margin-left: 125px;
+    border-radius: 45px;
+    background-image: url("https://cdn.prod.website-files.com/64e7340b7d897bf0c7179e52/64e743e6af6adbae4464fce6_Snimak%20ekrana%202023-08-23%20222754.jpg");
+    padding : 5px;
+}
+
+.play-button{
+    background-color: #000;
+    height: 75px;
+    width: 75px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button img{
+    height: 30px;
+}
+
+.main-para{
+    position: absolute;
+    left: 700px;
+    top: 490px;    
+}
+
+.paragraph{
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.play-button:hover{
+    padding-left: 10px;
+    transition: 0.3s ease-in-out;
+}
