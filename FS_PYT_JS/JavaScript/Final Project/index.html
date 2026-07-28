@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="part-one">
+            <h1 class="nav-title">FINAL JS PROJECT</h1>
+        </div>
+        <div class="part-two">
+            <button class="nav-buttons" id="add-button" onClick="addABook()">Click to add a Book</button>
+            <button class="nav-buttons" id="filter-button" onClick="filterBooksByCategory()">Filter Books</button>
+            <button class="nav-buttons" id="search-button" onClick="searchBooks()">Search Books</button>
+            <button class="nav-buttons" id="dark-mode-button" onClick="darkMode()">Dark Mode</button>
+        </div>
+    </nav>
+    <main>
+        <table class="display-books-table" border="1">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Category</th>
+                    <th>Book ID</th>
+                    <th>Publication Year</th>
+                    <th>Availability Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="books-information"></tbody>
+        </table>
+    </main>
+    <div class="ending">
+        <h1 class="ending-title">THANK YOU FOR USING <br>OUR BOOK LIBRARY.</h1>
+        <p>This Final Project is now completed. A huge thanks to our teacher and mentor Sir Talal Ahmed for showing us the pathway for the journey of development. <br>Assignmet is submitted by Abdul Hadi Muhammad Yaseen.</p>
+        <a href="https://www.github.com/abdul-x-haadi"><button class="last-button">GitHub</button></a>
+        <a href="https://www.hackerrank.com/profile/abdulhadi_y04"><button class="last-button">Hackerrank</button></a>
+        
+    </div>
+    
+<script src="app.js"></script>
+</body>
+</html>
